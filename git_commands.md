@@ -16,11 +16,11 @@
 * git checkout <branch_name>
 * git checkout <commit_id> file // to get a file from previous commit  
 * git annotate <file-name>
-git branch --set-upstream-to=origin/master master
-git reset HEAD~N (N is number of commits to revert) //revert commits on local repository
-git checkout <branch_name>
-git checkout HEAD~1
-git rebase -i HEAD~N (N is number of commits to squash) // to combain multiple comments as a single. 
+* git branch --set-upstream-to=origin/master master
+* git reset HEAD~N (N is number of commits to revert) //revert commits on local repository
+* git checkout <branch_name>
+* git checkout HEAD~1
+* git rebase -i HEAD~N (N is number of commits to squash) // to combain multiple comments as a single. 
 * git config --global user.name "USERNAME"
 * git config --global user.email "USERNAME@EMAIL.COM"
 * git push origin master
