@@ -1,5 +1,3 @@
-
-
 git init .
 git add <file name> 
 git commit -m "Commit information"
