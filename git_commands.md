@@ -1,3 +1,4 @@
+git markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 * git config --global user.name "USERNAME"
 * git config --global user.email "USERNAME@EMAIL.COM"
 * git init . //create and initialize a directory as a git repository
