@@ -6,8 +6,8 @@
 * git status 
 * git log 
 * git remote add "remote_repo"  // add remote repo to local system
-* git clone <remote_repo>  // clone remote repo into local system
-* git pull origin master
+* git clone <remote_repo>  // clone remote repo into local system when the local repo doesnt exist
+* git pull origin master // pull any changes that exist on the remote repo that is not on your local repository. The local repository already exists, you are just making your repo sync with the remote repo
 * git push origin master // push local changes on master branch to remote (same as origin) master (same master in command) branch. Push your code when you have changes not present in the remote repository. Code has to be commited to your local repository first.
 * git checkout -- //undo changes in the working directory
 * git checkout -- . // undo changes in the working directory
