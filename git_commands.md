@@ -1,12 +1,12 @@
-* git init .
-* git add <file name> 
-* git commit -m "Commit information"
+* git init . //create and initialize a directory as a git repository
+* git add <file name>  //add a file to the staging area 
+* git commit -m "Commit information"  //commit/save your file(s) in staging area to your local git repo
 * git status 
 * git log 
 * git remote add "remote_repo"  // add remote repo to local system
 * git clone <remote_repo>  // clone remote repo into local system
 * git pull origin master
-* git push origin master # push local changes on master branch to remote (same as origin) master (same master in command) branch
+* git push origin master // push local changes on master branch to remote (same as origin) master (same master in command) branch. Push your code when you have changes not present in the remote repository. Code has to be commited to your local repository first.
 * git checkout -- 
 * git checkout -- . 
 git restore <file_name> 
