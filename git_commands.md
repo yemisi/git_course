@@ -4,11 +4,11 @@
 * git status 
 * git log 
 * git remote add "remote_repo"  // add remote repo to local system
-git clone <remote_repo>  // clone remote repo into local system
-git pull origin master
-git push origin master # push local branch master to remote branch master
-git checkout -- 
-git checkout -- . 
+* git clone <remote_repo>  // clone remote repo into local system
+* git pull origin master
+* git push origin master # push local changes on master branch to remote (same as origin) master (same master in command) branch
+* git checkout -- 
+* git checkout -- . 
 git restore <file_name> 
 git restore . 
 git checkout <branch_name>
