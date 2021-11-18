@@ -12,6 +12,8 @@ git markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-C
 * git push origin master // push local changes on master branch to remote (same as origin) master (same master in command) branch. Push your code when you have changes not present in the remote repository. Code has to be commited to your local repository first.
 * git checkout -- //undo changes in the working directory
 * git checkout -- . // undo changes in the working directory
+* git checkout -- <filename> // to revert changes from git working directory area
+* git checkout <commit_id> <filename> // move to previous commit 
 * git restore <file_name> // undo changes in the working directory
 * git restore . // undo changes in the working directory
 * git checkout <branch_name>
@@ -19,7 +21,6 @@ git markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-C
 * git annotate <file-name>
 * git branch --set-upstream-to=origin/master master
 * git reset HEAD~N (N is number of commits to revert) //revert commits on local repository
-* git checkout <branch_name>
 * git checkout HEAD~1
 * git rebase -i HEAD~N (N is number of commits to squash) // to combain multiple comments as a single. 
 * git config --global user.name "USERNAME"
@@ -28,9 +29,7 @@ git markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-C
 git remote add origin "GITHUB_REPO_URL"
 * git add "<filename>" / git add . 
 * git push origin <branch>
-* git checkout -- <filename> // to revert changes from git working directory area
 * git reset HEAD <filename> //unstage a file 
-* git checkout <commit_id> <filename> // move to previous commit 
 * git reset HEAD . //unstage all changes 
 * git show <commit-id> 
 * git show HEAD
