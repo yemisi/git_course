@@ -29,7 +29,12 @@ git markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-C
 * git restore --staged <file_name>  #unstage files from Staging area to working directory  
 * git restore <file_name> #then use git restore to undo changes from working directory  
 ```
-#### Undo changes in working area 
+#### Undo changes in local repository if not commited to remote repositort
+```
+* git reset HEAD~ #same as HEAD~1 . It reverts changes from local repo to working directory. NOTE that the last commit will be removed, so use on private not                          public/main branch
+* git restore <file_name> #then use git restore to undo changes from the working directory  
+```
+
 ```
 * git reset HEAD <filename> //unstage a file 
 * git reset HEAD . //unstage all changes 
