@@ -4,29 +4,30 @@ git markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-C
 * git config --global user.email "USERNAME@EMAIL.COM"
 * git init . //create and initialize a directory as a git repository
 * git add <file name>  //add a file to the staging area 
-* git add "<filename>" / git add . 
+* git add . 
 * git commit -m "Commit information"  //commit/save your file(s) in staging area to your local git repo
 * git status 
 * git log 
 ```
 
-* git push origin master
+```
 * git remote add origin "GITHUB_REPO_URL"
-* git push origin <branch>
 * git remote add "remote_repo"  // add remote repo to local system
 * git clone <remote_repo>  // clone remote repo into local system when the local repo doesnt exist
 * git pull origin master // pull any changes that exist on the remote repo that is not on your local repository. The local repository already exists, you are just making your repo sync with the remote repo
-* git push origin master // push local changes on master branch to remote (same as origin) master (same master in command) branch. Push your code when you have changes not present in the remote repository. Code has to be commited to your local repository first.
-  
+* git push origin <branch> // push local changes on master branch to remote (same as origin) master (same master in command) branch. Push your code when you have changes not present in the remote repository. Code has to be commited to your local repository first.
+```
+
 #### Undo changes in working directory , staging area or local repo
 ```
 * git restore <file_name> // undo changes in the working directory
 * git restore . // undo all changes in the working directory  
-* git checkout -- . // undo changes in the working directory
 * git checkout -- <filename> // to revert changes from git working directory area
+* git checkout -- . // undo changes in the working directory
 * git checkout <commit_id> file // to get a file from previous commit  
 ```
-  
+
+```
 * git checkout <commit_id> // move to previous commit 
 * git reset HEAD <filename> //unstage a file 
 * git reset HEAD . //unstage all changes 
@@ -36,11 +37,14 @@ git markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-C
 * git reset HEAD~N (N is number of commits to revert) //revert commits on local repository
 * git checkout HEAD~1
 * git rebase -i HEAD~N (N is number of commits to squash) // to combain multiple comments as a single. 
+```
 
+```
 * git show <commit-id> 
 * git show HEAD
 * git show HEAD~1
-  
+``` 
+```
 * git checkout <branch_name>
 * git branch --set-upstream-to=origin/master master
 * git branch <branch_name> // to create a new branch
@@ -48,3 +52,4 @@ git markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-C
 * git merge <source_branch> <dest_branch> 
 * git branch -d <branch_name> // to delete a branch
 * git branch --set-upstream-to=origin/master master
+```
