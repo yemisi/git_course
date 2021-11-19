@@ -18,12 +18,18 @@ git markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-C
 * git push origin <branch> // push local changes on master branch to remote (same as origin) master (same master in command) branch. Push your code when you have changes not present in the remote repository. Code has to be commited to your local repository first.
 ```
 
-#### Undo changes in working directory , staging area or local repo
+#### Undo changes in working directory
 ```
 * git restore <file_name> // undo changes in the working directory
 * git restore . // undo all changes in the working directory  
 * git checkout -- <filename> // to revert changes from git working directory area
 * git checkout -- . // undo changes in the working directory
+```
+#### Undo changes inn staging area 
+```
+* git restore --staged <file_name>  #unstage changes from Staging area to working directory  
+* git restore <file_name> #then use git restore to undo changes from working directory  
+
 * git checkout <commit_id> file // to get a file from previous commit  
 ```
 
