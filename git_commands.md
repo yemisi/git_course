@@ -16,10 +16,9 @@ git markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-C
 * git pull origin master // pull any changes that exist on the remote repo that is not on your local repository. The local repository already exists, you are just making your repo sync with the remote repo
 * git push origin master // push local changes on master branch to remote (same as origin) master (same master in command) branch. Push your code when you have changes not present in the remote repository. Code has to be commited to your local repository first.
   
-## Undo changes in working directory , staging area or local repo
+#### Undo changes in working directory , staging area or local repo
 * git restore <file_name> // undo changes in the working directory
-* git restore . // undo all changes in the working directory
-  
+* git restore . // undo all changes in the working directory  
 * git checkout -- . // undo changes in the working directory
 * git checkout -- <filename> // to revert changes from git working directory area
 * git checkout <commit_id> file // to get a file from previous commit  
